@@ -121,3 +121,6 @@
   (let $t (gen 3)
     (if (== (subsum (:: 3 (:: 7 (:: 5 nil))) $t) 8) $t (nop)))
   ((:: 1 (:: 0 (:: 1 nil)))))
+
+!(assertEqualToResult 
+  (pow 2 3) (8))
